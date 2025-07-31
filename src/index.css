@@ -2,39 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* Professional Design System for Antônio Gianichini
+All colors MUST be HSL. Blue-focused professional palette.
 */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 220 25% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 25% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 25% 25%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 220 85% 15%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 220 85% 45%;
+    --primary-light: 220 85% 92%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 15% 95%;
+    --secondary-foreground: 220 85% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 15% 96%;
+    --muted-foreground: 220 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 220 85% 55%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 15% 90%;
+    --input: 220 15% 95%;
+    --ring: 220 85% 55%;
+
+    /* Professional gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220 85% 15%), hsl(220 85% 25%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 85% 15%), hsl(220 85% 35%));
+    --gradient-accent: linear-gradient(135deg, hsl(220 85% 45%), hsl(220 85% 65%));
+    
+    /* Professional shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(220 85% 15% / 0.3);
+    --shadow-glow: 0 0 40px hsl(220 85% 45% / 0.4);
+    --shadow-card: 0 4px 20px -4px hsl(220 85% 15% / 0.15);
+    
+    /* Animation timing */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --radius: 0.5rem;
 
