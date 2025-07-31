@@ -27,11 +27,11 @@ const Header = () => {
   };
 
   const menuItems = [
-    { label: 'Meu Trabalho', id: 'trabalho' },
+    { label: 'Como Ajudamos', id: 'trabalho' },
+    { label: 'Cursos', id: 'cursos' },
+    { label: 'Resultados', id: 'cases' },
     { label: 'Quem Sou', id: 'sobre' },
-    { label: 'Cases', id: 'cases' },
-    { label: 'Conteúdos', id: 'conteudos' },
-    { label: 'Fale Comigo', id: 'contato' }
+    { label: 'Contato', id: 'contato' }
   ];
 
   return (

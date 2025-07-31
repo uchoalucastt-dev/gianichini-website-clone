@@ -8,37 +8,37 @@ const WorkSection = () => {
   const services = [
     {
       icon: Briefcase,
-      title: "Consultoria Estratégica",
-      description: "Desenvolvimento de planos de comunicação personalizados para campanhas eleitorais e gestão pública",
+      title: "Diagnóstico da Comunicação",
+      description: "Análise completa da comunicação atual da sua prefeitura e identificação de oportunidades",
       features: [
-        "Análise de cenário político",
-        "Estratégia de posicionamento",
-        "Planejamento de comunicação",
-        "Gestão de crises"
+        "Auditoria completa dos canais",
+        "Análise de percepção pública",
+        "Relatório com recomendações",
+        "Plano de ação estratégico"
       ],
       image: consultation
     },
     {
       icon: Megaphone,
-      title: "Palestras e Treinamentos",
-      description: "Compartilhando conhecimento em eventos, workshops e capacitações para equipes",
+      title: "Treinamentos In-Company",
+      description: "Capacitação presencial ou online para equipes de comunicação da sua prefeitura",
       features: [
-        "Marketing político digital",
-        "Comunicação eficaz",
-        "Gestão de redes sociais",
-        "Oratória e debate"
+        "Treinamento para assessores",
+        "Workshop de redes sociais",
+        "Capacitação em gestão de crises",
+        "Certificados para a equipe"
       ],
       image: speakingEvent
     },
     {
       icon: Target,
-      title: "Estratégias Digitais",
-      description: "Implementação de campanhas digitais modernas e eficazes para maior engajamento",
+      title: "Implementação de Estratégias",
+      description: "Acompanhamento na implementação das estratégias de comunicação na sua gestão",
       features: [
-        "Gestão de redes sociais",
-        "Criação de conteúdo",
-        "Campanhas pagas",
-        "Análise de métricas"
+        "Acompanhamento mensal",
+        "Ajustes estratégicos",
+        "Relatórios de progresso",
+        "Suporte técnico contínuo"
       ]
     }
   ];
@@ -60,11 +60,11 @@ const WorkSection = () => {
         {/* Header */}
         <div className="text-center mb-12 lg:mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
-            Meu Trabalho
+            Como Ajudamos Prefeituras
           </h2>
           <div className="w-20 h-1 bg-accent mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Conheça os serviços e soluções que ofereço para transformar sua comunicação política
+            Metodologia comprovada para transformar a comunicação da sua gestão municipal
           </p>
         </div>
 
@@ -116,11 +116,11 @@ const WorkSection = () => {
             <div className="mb-6">
               <Lightbulb className="h-12 w-12 mx-auto mb-4 text-primary-glow" />
               <h3 className="text-2xl lg:text-3xl font-bold mb-4">
-                Como Posso Te Ajudar?
+                Pronto Para Transformar Sua Comunicação?
               </h3>
               <p className="text-lg text-primary-foreground/90 mb-6">
-                Cada projeto é único e merece uma estratégia personalizada. 
-                Vamos conversar sobre como posso contribuir para o sucesso da sua comunicação política.
+                Mais de 50 prefeituras já transformaram sua comunicação conosco. 
+                Agende uma conversa gratuita e descubra como podemos ajudar a sua também.
               </p>
             </div>
             
@@ -131,15 +131,15 @@ const WorkSection = () => {
                 onClick={() => scrollToSection('contato')}
                 className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold px-8"
               >
-                Solicitar Consultoria
+                Agendar Conversa Gratuita
               </Button>
               <Button 
                 size="lg" 
                 variant="outline"
-                onClick={() => scrollToSection('cases')}
+                onClick={() => scrollToSection('cursos')}
                 className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary font-semibold px-8"
               >
-                Ver Cases de Sucesso
+                Ver Cursos Disponíveis
               </Button>
             </div>
           </div>

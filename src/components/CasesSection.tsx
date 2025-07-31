@@ -9,61 +9,61 @@ const CasesSection = () => {
 
   const cases = [
     {
-      title: "Campanha Prefeito Municipal 2020",
-      description: "Estratégia digital que resultou em vitória no primeiro turno",
-      category: "Campanha Municipal",
+      title: "Prefeitura de São João do Vale - Comunicação Digital",
+      description: "Implementação completa de estratégia digital que aumentou aprovação em 45%",
+      category: "Gestão Municipal",
       results: [
-        { label: "Engajamento", value: "250%", icon: Users },
-        { label: "Alcance", value: "1.2M", icon: TrendingUp },
-        { label: "Resultado", value: "Vitória", icon: Award }
+        { label: "Aprovação", value: "+45%", icon: Users },
+        { label: "Engajamento", value: "380%", icon: TrendingUp },
+        { label: "Transparência", value: "98%", icon: Award }
       ],
       details: [
-        "Desenvolvimento de identidade visual moderna",
-        "Estratégia de conteúdo multiplataforma",
-        "Gestão de crises em tempo real",
-        "Monitoramento e análise de métricas"
+        "Criação de portal da transparência moderno",
+        "Implementação de redes sociais oficiais",
+        "Treinamento de equipe de comunicação",
+        "Sistema de ouvidoria digital"
       ],
-      challenge: "Candidato com baixo conhecimento inicial e forte oposição",
-      solution: "Campanha focada em proximidade com o eleitor e propostas concretas",
-      outcome: "Vitória no primeiro turno com 52% dos votos válidos"
+      challenge: "Baixa aprovação da gestão e falta de transparência",
+      solution: "Estratégia 360° de comunicação digital e transparência",
+      outcome: "Maior índice de aprovação da história do município em 18 meses"
     },
     {
-      title: "Gestão da Comunicação Governamental 2021-2024",
-      description: "Modernização da comunicação de uma prefeitura de médio porte",
-      category: "Gestão Pública",
+      title: "Prefeitura de Vila Nova - Curso de Comunicação",
+      description: "Capacitação completa da equipe resultou em comunicação mais eficaz",
+      category: "Treinamento",
       results: [
-        { label: "Aprovação", value: "78%", icon: Award },
-        { label: "Transparência", value: "95%", icon: TrendingUp },
-        { label: "Participação", value: "180%", icon: Users }
+        { label: "Equipe Treinada", value: "25", icon: Award },
+        { label: "Melhoria", value: "60%", icon: TrendingUp },
+        { label: "Satisfação", value: "95%", icon: Users }
       ],
       details: [
-        "Implementação de canais digitais oficiais",
-        "Criação de boletins informativos semanais",
-        "Desenvolvimento de portal da transparência",
-        "Capacitação da equipe de comunicação"
+        "Curso de 8 semanas para toda equipe",
+        "Workshop de gestão de crises",
+        "Implementação de novos processos",
+        "Acompanhamento pós-treinamento"
       ],
-      challenge: "Baixa confiança da população na gestão anterior",
-      solution: "Estratégia de transparência total e comunicação direta",
-      outcome: "Maior índice de aprovação da história do município"
+      challenge: "Equipe sem conhecimento técnico em comunicação digital",
+      solution: "Programa de capacitação intensiva e mentoria",
+      outcome: "Equipe autônoma e comunicação 60% mais eficaz"
     },
     {
-      title: "Campanha Estadual - Assembleia Legislativa 2022",
-      description: "Posicionamento de candidato novato em disputa acirrada",
-      category: "Campanha Estadual",
+      title: "Prefeitura de Santa Clara - Mentoria Executiva",
+      description: "Acompanhamento do prefeito resultou em gestão mais transparente",
+      category: "Mentoria Premium",
       results: [
-        { label: "Crescimento", value: "300%", icon: TrendingUp },
-        { label: "Votos", value: "45K", icon: Users },
-        { label: "Posição", value: "3º lugar", icon: Award }
+        { label: "ROI", value: "650%", icon: TrendingUp },
+        { label: "Aprovação", value: "82%", icon: Users },
+        { label: "Reeleição", value: "1º Turno", icon: Award }
       ],
       details: [
-        "Estratégia de diferenciação temática",
-        "Campanha digital inovadora",
-        "Parcerias estratégicas locais",
-        "Eventos de mobilização regional"
+        "6 meses de mentoria individual",
+        "Reestruturação da comunicação",
+        "Treinamento de porta-vozes",
+        "Monitoramento de resultados"
       ],
-      challenge: "Candidato sem experiência política prévia",
-      solution: "Foco em competência técnica e propostas inovadoras",
-      outcome: "Eleito deputado estadual com votação expressiva"
+      challenge: "Prefeito com dificuldades de comunicação pública",
+      solution: "Mentoria individual focada em liderança e comunicação",
+      outcome: "Reeleição no primeiro turno com 67% dos votos"
     }
   ];
 
@@ -83,11 +83,11 @@ const CasesSection = () => {
         {/* Header */}
         <div className="text-center mb-12 lg:mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
-            Cases de Sucesso
+            Resultados Comprovados
           </h2>
           <div className="w-20 h-1 bg-accent mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Conheça alguns projetos que transformaram a comunicação política e geraram resultados excepcionais
+            Veja como nossas soluções transformaram a comunicação de prefeituras em todo o país
           </p>
         </div>
 

@@ -31,14 +31,14 @@ const HeroSection = () => {
           <div className="text-center lg:text-left space-y-6 lg:space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                Antônio Gianichini
+                Transforme a Comunicação da Sua Prefeitura
               </h1>
               <div className="text-xl md:text-2xl lg:text-3xl font-semibold text-primary-glow">
-                Especialista em Comunicação e Marketing Político
+                Cursos e Mentorias Especializadas para Gestão Pública
               </div>
               <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl mx-auto lg:mx-0">
-                Professor e Consultor com Experiência Comprovada em Campanhas de Sucesso. 
-                Transformando a comunicação política através de estratégias inovadoras.
+                Capacite sua equipe com estratégias comprovadas de comunicação política e digital. 
+                Mais de 50 prefeituras já transformaram sua comunicação conosco.
               </p>
             </div>
 
@@ -46,11 +46,10 @@ const HeroSection = () => {
               <Button 
                 size="lg"
                 variant="secondary"
-                onClick={() => scrollToSection('sobre')}
+                onClick={() => scrollToSection('cursos')}
                 className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold px-8 py-3 h-auto"
               >
-                Continue Explorando
-                <ChevronDown className="ml-2 h-5 w-5" />
+                Ver Cursos e Mentorias
               </Button>
               <Button 
                 size="lg"
@@ -58,23 +57,23 @@ const HeroSection = () => {
                 onClick={() => scrollToSection('contato')}
                 className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary font-semibold px-8 py-3 h-auto"
               >
-                Fale Comigo
+                Solicitar Orçamento
               </Button>
             </div>
 
             {/* Stats */}
             <div className="flex flex-col sm:flex-row gap-6 sm:gap-12 pt-8 lg:pt-12 justify-center lg:justify-start">
               <div className="text-center lg:text-left">
-                <div className="text-2xl lg:text-3xl font-bold text-primary-glow">15+</div>
-                <div className="text-sm text-primary-foreground/80">Anos de Experiência</div>
-              </div>
-              <div className="text-center lg:text-left">
                 <div className="text-2xl lg:text-3xl font-bold text-primary-glow">50+</div>
-                <div className="text-sm text-primary-foreground/80">Campanhas Atendidas</div>
+                <div className="text-sm text-primary-foreground/80">Prefeituras Atendidas</div>
               </div>
               <div className="text-center lg:text-left">
-                <div className="text-2xl lg:text-3xl font-bold text-primary-glow">100%</div>
-                <div className="text-sm text-primary-foreground/80">Dedicação</div>
+                <div className="text-2xl lg:text-3xl font-bold text-primary-glow">500+</div>
+                <div className="text-sm text-primary-foreground/80">Servidores Capacitados</div>
+              </div>
+              <div className="text-center lg:text-left">
+                <div className="text-2xl lg:text-3xl font-bold text-primary-glow">95%</div>
+                <div className="text-sm text-primary-foreground/80">Satisfação dos Clientes</div>
               </div>
             </div>
           </div>
